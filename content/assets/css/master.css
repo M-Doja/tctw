@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #e8dada;
+    font-style: impact;
+  }
+  body { text-align: center; }
+  .wrap { background-color: #fff; max-width: 720px; margin: 50px auto; padding: 30px 40px; text-align: center; box-shadow: 0 4px 25px -4px #9da5ab; }
+  article { line-height: 150%;  }
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form,
+.navbar-inverse> div.container {
+  background-color: #000;
+  color: #fff;
+}
+
+.contain{
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 20px;
+}
+.main-header {
+  font-family: 'Cabin', sans-serif;
+}
+.main-header span {
+  font-size: 26px;
+  display: block;
+}
+#paralogo {
+  padding-left: 10px;
+  width: 150px;
+}
+#paralogobrand {
+  width: 85px;
+  display: inline-block;
+  margin-top: -10px;
+  background: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 12px;
+}
+#rightTopLogo{
+  margin-top: 30px;
+  font-family: 'Cabin', sans-serif;
+}
+.location {
+  font-size: 18px;
+  padding-top: 20px;
+  display: inline-block;
+}
+.location img {
+  display: inline-block;
+  margin-top: -5px;
+  margin-right:10px;
+  border-radius: 12px;
+  border: 1px solid #000;
+}
+#rightTopLogo {
+  margin: 30px 10px;
+}
+@media screen and (max-width:992px) {
+  .location,
+  #rightTopLogo {
+    display: none;
+  }
+}
+.grn {
+  color: green;
+}
+.carousel-caption .btn {
+  margin-bottom: 70px;
+}
+.btn-custom {
+  color: #000;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: all .3s linear;
+}
+.btn-custom:hover {
+  transform: scale(1.1);
+  color: #fff;
+  text-shadow: 1px 1px 1px red;
+  background: #333;
+  width: 250px;
+}
+.main-header  {
+  color: #000;
+
+}
+.main-header h1 {
+  font-size: 4vw;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+#main-wrap {
+  background: #000;
+  padding: 25px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+#main {
+  max-height: 100%;
+  max-width: 930px;
+}
+
+ img {
+  width: 100%;
+  margin: auto;
+}
+
+.col-wrap{
+  border:1px solid #000;
+  padding:15px;
+  margin: 25px auto;
+  height: 265px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 5px 5px 5px #999;
+}
+.col-wrap p {
+  line-height: 1.35em;
+  font-weight: bolder;
+}
+
+.col-md-4 {
+  margin:0  auto;
+}
+
+.learn,
+.learn:visited {
+  /* color:black; */
+  transition: all .2s ease;
+}
+.learn:hover {
+  font-size: 18px;
+  color: red;
+}
+.top {
+  border-bottom: 2px solid #000;
+  border-radius: 8px 8px 0 0 ;
+  color: #fff;
+  text-shadow: 2px 2px 5px #555;
+  background-image: url('.content/assets/images/stone.jpg');
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.top h2 {
+  font-weight: bold;
+}
+.carousel-caption {
+  max-width: 540px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 25px;
+  height: 200px;
+  display: block;
+  border-radius: 6px;
+}
+figcaption a {
+  color: #fff;
+}
+.carousel-caption,
+.carousel-caption a {
+  color: #fff;
+  text-align: justify;
+
+}
+.carousel-caption a:hover {
+  color: #fff;
+}
+
+.headLinkTitle {
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+.linkBody {
+  padding-bottom: 25px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+.picText {
+  position:absolute;
+  top:300px;
+  left:30px;
+  width:480px;
+  height:140px;
+  font-family:'Roboto Condensed',sans-serif;
+  font-size:30px;
+  color:#000000;
+  line-height:1.27;
+  padding:5px 5px 5px 5px;
+  box-sizing:border-box;
+  background-color:rgba(0,0,0,0.8);
+  background-clip:padding-box;
+}
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right  {
+  color: rgba(255, 255, 255, 0.6);
+}
+.rtLogo {
+  float:right;
+  background-color:rgba(255, 255, 255, 0.7);
+  border:1px solid #000;
+  border-radius:50%;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  margin:-25px auto 20px;
+}
+@media screen and (max-width: 1050px){
+  .rtLogo {
+    display: none;
+  }
+  .main-header h1 {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    height: 180px;
+  }
+  .main-header h1 {
+    font-size: 5.5vw;
+  }
+  .carousel-caption {
+    max-width: 280px;
+    width: 100%;
+
+  }
+  .headLinkTitle {
+    font-size: 12vmin;
+    text-shadow: 2px 2px 2px #fff;
+    color: #000;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    max-width: 100px;
+    width: 100%;
+  }
+  .linkBody {
+    display: none;
+    font-size: 3vw;
+  }
+  .picText {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 60%;
+    height: 170px;
+    padding-top: 10px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-caption {
+    margin-left: -19px;
+    margin-bottom:-8px;
+  }
+  .headLinkTitle {
+    font-size: 14vmin;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-caption {
+    max-width: 300px;
+    width: 100%;
+
+  }
+
+
+}
+@media screen and (min-width: 600px and max-width: 700px) {
+  .carousel-caption a{
+      margin-left: -105px;
+
+  }
+}
+
+
+.about img {
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  color: red;
+}
+
+@media screen and (min-width: 760px) {
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  ul {padding: 0}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content li { list-style: none;}
+
+  .dropdown-content a:hover {background-color: #eee;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #333;}
+
+}
+
+.navbar  {
+  margin-bottom: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+}
