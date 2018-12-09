@@ -322,8 +322,8 @@
       </section>
 
       <!-- Photos -->
-      <br>
-      <hr id="Photos">
+      <br id="Photos">
+      <hr >
       <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
         <?php include './content/partials/pixCar.php'; ?>
         <div id="Directions"></div>
