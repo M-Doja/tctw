@@ -336,11 +336,10 @@
       <hr id="Photos"><br>
       <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
         <?php include './content/partials/pixCar.php'; ?>
+        <!-- Directions -->
+        <div id="Directions"></div>
       </div>
 
-      <!-- Directions -->
-      <div id="Directions"></div>
-      <br>
       <hr >
       <br>
       <section class="center">
