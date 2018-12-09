@@ -8,9 +8,7 @@
   <head>
     <style>
     html {border: #674d3c 15px solid;}
-    body {background-color: lightgoldenrodyellow;
-      position: relative;
-    }
+    body {background-color: lightgoldenrodyellow;position: relative;}
     section.splash {
       background-image: url('./content/assets/images/DPP07DA0C0D152627.jpg');
       background-position: center;
@@ -53,11 +51,6 @@
     @media only screen and (max-width: 460px) {
       img#tl { margin-top: -100px; }
     }
-
-      /* Style the navbar */
-    body {
-      position: relative;
-    }
     #navbar-example2 {
       overflow: hidden;
       margin: 0 auto 45px;
@@ -67,8 +60,6 @@
       font-family: new times;
       border:1px solid #674d3c;
     }
-
-    /* Navbar links */
     #navbar-example2 a {
       float: left;
       display: block;
@@ -77,12 +68,9 @@
       padding: 14px;
       text-decoration: none;
     }
-
-    /* Page content */
     .content {
       padding: 16px;
     }
-
     /* The sticky class is added to the navbar with JS when it reaches its scroll position */
     .sticky {
       position: fixed;
@@ -90,7 +78,6 @@
       left:0;
       width: 100%;
     }
-
     /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
     .sticky + .content {
       padding-top: 60px;
@@ -128,6 +115,7 @@
           <img class="img-fluid"src="./content/assets/images/DPP07DA0C0D152627.jpg" style=" max-width:700px ;width:100%;border:1.5px solid navy" alt="">
         <!-- </a> -->
       </figure>
+      <!-- Quotes -->
       <section class="row center">
         <section class="col-md-6">
           <blockquote cite="http://">
@@ -141,8 +129,7 @@
         </section>
       </section>
     </section>
-    <div id="Home" style=" text-align: center;margin: 35px auto;">
-    </div>
+    <div id="Home" style=" text-align: center;margin: 35px auto;"></div>
 
     <!-- Navbar -->
     <nav id="navbar-example2" class="navbar mr-auto navbar-light">
