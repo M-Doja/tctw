@@ -95,7 +95,7 @@
 
     <!-- Site Title -->
     <header id="top">
-      <p class="center" style="margin-bottom:-5px;">Welcome to</p>
+      <!-- <p class="center" style="margin-bottom:-5px;">Welcome to</p> -->
       <h1 class="center">Center of the World
         <span style="font-size:3.5vw">&reg;</span>
       </h1>
