@@ -339,7 +339,7 @@
       </div>
 
       <!-- Directions -->
-      <!-- <div id="Directions"></div> -->
+      <div id="Directions"></div>
       <br>
       <hr >
       <br>
