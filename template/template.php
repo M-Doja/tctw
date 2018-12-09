@@ -124,7 +124,9 @@
           <h3  id="title">Museum of History in Granite</h3>
 
         </figcaption>
-        <img class="img-fluid"src="./content/assets/images/DPP07DA0C0D152627.jpg" width="700" style="border:1.5px solid navy" alt="">
+        <!-- <a href="./content/assets/images/DPP07DA0C0D152627.jpg" target="_blank"> -->
+          <img class="img-fluid"src="./content/assets/images/DPP07DA0C0D152627.jpg" style=" max-width:700px ;width:100%;border:1.5px solid navy" alt="">
+        <!-- </a> -->
       </figure>
       <section class="row center">
         <section class="col-md-6">
@@ -333,17 +335,16 @@
       </section>
 
       <!-- Photos -->
-      <hr id="Photos"><br>
+      <hr id="Photos">
       <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
         <?php include './content/partials/pixCar.php'; ?>
-        <!-- Directions -->
         <div id="Directions"></div>
       </div>
 
       <hr >
-      <br>
+      <!-- <br> -->
+      <!-- Directions -->
       <section class="center">
-        <br>
         <h2 style="color:navy;">Directions</h2>
         <p class="center">
           <b>One Center of the World Plaza <br> Felicity, CA 92283-7777 USA<br>
