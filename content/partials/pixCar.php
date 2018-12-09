@@ -63,7 +63,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Last Invastion -->
     <div class="carousel-item" style="padding:20px;">
-      <img  class="d-block w-100" src="./IMAGESDUMP/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy.JPG" alt="Image of panel depicting text regarding last known U.S. invasion.">
+      <img style="margin-bottom:5px;" class="d-block w-100" src="./IMAGESDUMP/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy.JPG" alt="Image of panel depicting text regarding last known U.S. invasion.">
 
       <p style="display:block; margin:-5px auto 5px;"><b>Last Invasion of The United States</b> <br>The President of France sent his Consul to the 9 March 2018 Dedication. </p>
     </div>
