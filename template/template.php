@@ -107,7 +107,7 @@
       <figure>
         <figcaption>
           <blockquote cite="http://">
-            <b>"... no digital images could have prepared me for the tranquil, lofty sensation, <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
+            <b>"... no digital images could have prepared me for the tranquil, lofty sensation <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
           </blockquote>
           <h3  id="title">Museum of History in Granite</h3>
 
@@ -368,7 +368,7 @@
 
     <script type="text/javascript">
     $('.carousel').carousel({
-      // interval: 2000
+      interval: 3000
     });
     $('body').scrollspy({ target: '#navbar-example2' });
     // When the user scrolls the page, execute myFunction
