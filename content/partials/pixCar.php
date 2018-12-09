@@ -71,7 +71,7 @@ function showCarousalImage($imgName){
     <div class="carousel-item" style="padding:20px;">
       <img  class="d-block w-100" src="./content/assets/images/HFP Museum LOGO.jpg" alt="eighth slide">
 
-      <p style="display:block; margin:-5px auto 5px;">Logo of the <b>Museum of History in Granite.</b> </p>
+      <p style="display:block; margin:3px auto;">Logo of the <b>Museum of History in Granite.</b> </p>
     </div>
     <!-- Monument Wall -->
     <div class="carousel-item">
