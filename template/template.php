@@ -178,7 +178,7 @@
           <section id="ctw-page" class="pdfImg btn1">
             <a href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
                 <b>Setting The Official <br>Center of The World </b><br>
-              <img id="ctwImg"src="./content/assets/images/sm-page.PNG" alt="Image of typed paper about the Center of The World" height="200px">
+              <img id="ctwImg"src="./content/assets/images/2018 Recent book Page 11Center of the World-1.jpg" alt="Image of typed paper about the Center of The World" height="200px">
             </a>
             <!-- Modal -->
             <div class="modal fade" style="margin-top:75px;" id="settingCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
