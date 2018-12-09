@@ -335,6 +335,7 @@
       </section>
 
       <!-- Photos -->
+      <br>
       <hr id="Photos">
       <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
         <?php include './content/partials/pixCar.php'; ?>
@@ -342,7 +343,7 @@
       </div>
 
       <hr >
-      <!-- <br> -->
+      <br>
       <!-- Directions -->
       <section class="center">
         <h2 style="color:navy;">Directions</h2>
