@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <head>
     <style>
-    html {border: #674d3c 15px solid;}
+    html {border: #674d3c 5px solid;}
     body {background-color: lightgoldenrodyellow;position: relative;}
     section.splash {
       background-image: url('./content/assets/images/DPP07DA0C0D152627.jpg');
@@ -32,10 +32,10 @@
       max-width:500px;width: 100%;}
     div.modal-content, div.modal-content img { max-width: 732px;width: 100%;}
     header h1 {
-      font-size:5vw; font-family:new times;margin-bottom:20px;color:navy;border-bottom:3px solid navy;
+      font-size:4.5vw; font-family:new times;margin-bottom:20px;color:navy;border-bottom:3px solid navy;
     }
     @media only screen and (max-width: 917px) {
-      header h1 { font-size: 7.5vw;}
+      header h1 { font-size: 6vw;}
     }
     @media only screen and (max-width: 545px) {
       img#tl { margin-top: -130px; }
@@ -97,8 +97,8 @@
     <!-- Site Title -->
     <header id="top">
       <!-- <p class="center" style="margin-bottom:-5px;">Welcome to</p> -->
-      <h1 class="center">Center of the World
-        <span style="font-size:3.5vw">&reg;</span>
+      <h1 class="center" style="">Center of the World
+        <span style="font-size:2.5vw">&reg;</span>
       </h1>
     </header>
 
@@ -107,7 +107,7 @@
       <figure>
         <figcaption>
           <blockquote cite="http://">
-            "... no digital images could have prepared me for the tranquil, lofty sensation, <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i>
+            <b>"... no digital images could have prepared me for the tranquil, lofty sensation, <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
           </blockquote>
           <h3  id="title">Museum of History in Granite</h3>
 
@@ -120,12 +120,12 @@
       <section class="row center">
         <section class="col-md-6">
           <blockquote cite="http://">
-            "meticulously researched"<i><small> Los Angeles Times</small> </i>
+            <b>"meticulously researched"<i><small> Los Angeles Times</small> </i></b>
           </blockquote>
         </section>
         <section class="col-md-6">
           <blockquote cite="http://">
-            "design worth the trip" <i><small>Time Magazine</small> </i>
+            <b>"design worth the trip" <i><small>Time Magazine</small> </i></b>
           </blockquote>
         </section>
       </section>
