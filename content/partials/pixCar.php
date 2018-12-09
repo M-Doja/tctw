@@ -79,9 +79,9 @@ function showCarousalImage($imgName){
       <p>100ft. monuments are designed for four thousand years. <b>No gurantees</b>.</p>
     </div>
     <!-- Eiffel Tower Plaque -->
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img class="d-block w-100" src="./content/assets/images/EiffelTowerPlaque.jpg" alt="Eiffel Tower plaque">
-    </div>
+    </div> -->
     <!-- Church -->
     <div class="carousel-item">
       <img class="d-block w-100" src="./content/assets/images/DPP07DA0C09150651 copy.jpg" alt="Seventh slide">
