@@ -8,7 +8,7 @@
   <head>
     <style>
     html {border: #674d3c 15px solid;}
-    body {background-color: lightgoldenrodyellow;border:3px red solid;
+    body {background-color: lightgoldenrodyellow;
       position: relative;
     }
     section.splash {
@@ -42,6 +42,10 @@
       img#tl { margin-top: -130px; }
       header h1 { font-size: 8.5vw;}
       #navbar-example2 .navbar-brand{ display: none;}
+      #title { font-size: 20px;}
+      #navbar-example2 a {
+        font-size: 12px;
+      }
     }
     @media only screen and (max-width: 500px) {
       img#tl { margin-top: -120px; }
@@ -104,19 +108,36 @@
 
     <!-- Site Title -->
     <header id="top">
+      <p class="center" style="margin-bottom:-5px;">Welcome to</p>
       <h1 class="center">Center of the World
         <span style="font-size:3.5vw">&reg;</span>
       </h1>
     </header>
 
-    <div style=" text-align: center;margin: 35px auto;">
-      <h3>Welcome to the</h3>
-      <h1>Museum of History in Granite</h1>
-    </div>
-
     <!-- Top Splash Page Section -->
-    <section class="container center">
-      <img class="img-fluid"src="./content/assets/images/DPP07DA0C0D152627.jpg" width="700" style="border:1.5px solid navy" alt="">
+    <section class="container center" style="margin-top:-20px;">
+      <figure>
+        <figcaption>
+          <blockquote cite="http://">
+            "... no digital images could have prepared me for the tranquil, lofty sensation, <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i>
+          </blockquote>
+          <h3  id="title">Museum of History in Granite</h3>
+
+        </figcaption>
+        <img class="img-fluid"src="./content/assets/images/DPP07DA0C0D152627.jpg" width="700" style="border:1.5px solid navy" alt="">
+      </figure>
+      <section class="row center">
+        <section class="col-md-6">
+          <blockquote cite="http://">
+            "meticulously researched"<i><small> Los Angeles Times</small> </i>
+          </blockquote>
+        </section>
+        <section class="col-md-6">
+          <blockquote cite="http://">
+            "design worth the trip" <i><small>Time Magazine</small> </i>
+          </blockquote>
+        </section>
+      </section>
     </section>
     <div id="Home" style=" text-align: center;margin: 35px auto;">
     </div>
@@ -133,6 +154,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Directions">Directions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.mazeofhonor.com/about-us/" target="_blank">Our Story</a>
         </li>
       </ul>
     </nav>
@@ -187,7 +211,7 @@
           <!-- Link To Felicity Now Page -->
           <section id="pyImg" class="pyImg btn1">
             <a href="http://www.felicity.us/home.html" target="_blank" data-toggle="" data-target="" class="modal-launcher">
-              <b>Now </b><br>
+              <b>Town of Felicity </b><br>
               <img id="pymImg" src="./content/assets/images/CW pyramid for CWdotUS.jpg" alt="Image of pyramid in town of Felicity." height="120px">
             </a>
             <br> <p id="clk2">click Here</p>
@@ -196,17 +220,18 @@
           <!-- About The Pyramid Page -->
           <section id="markerImg" class="markerImg btn1">
             <a href="#" data-toggle="modal" data-target="#markerCTWModal" class="modal-launcher">
-              <b>Inside Pyramid </b><br>
-              <img id="markImg"src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." height="170px">
+              <b>Official Center of The World <br>set by United States and International Law </b><br>
+              <img id="markImg"src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." height="80px" style="margin:10px auto;">
+              <br> <caption><b>found inside the pyramid</b> </caption>
             </a>
             <br> <p id="clk3">click Here</p>
 
             <!-- Modal -->
-            <div class="modal fade" id="markerCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" style="margin-top:50px;"id="markerCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document" style="max-width:732px; width:100%;">
                 <div class="modal-content" >
                   <div class="modal-body">
-                    <img src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid.">
+                    <img src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." style="width:200px;">
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -220,8 +245,8 @@
           <!-- Getting Certified Page -->
           <section id="certImg" class="certImg btn1">
             <a href="#" data-toggle="modal" data-target="#certCTWModal" class="modal-launcher">
-              <b>Leads To </b><br>
-              <img id="certifImg"src="./content/assets/images/CWCERT2.png" height="200" >
+              <b>Certificate </b><br>
+              <img id="certifImg"src="./content/assets/images/cert-edit.jpg" height="200" >
             </a>
             <br> <p id="clk4">click Here</p>
 
@@ -230,7 +255,7 @@
               <div class="modal-dialog" role="document" style="max-width:732px; width:100%;">
                 <div class="modal-content" >
                   <div class="modal-body">
-                    <img src="./content/assets/images/CWCERT2.png" height="200" style="height:100%;" >
+                    <img src="./content/assets/images/cert-edit.jpg" height="200" style="height:100%;" >
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -258,10 +283,12 @@
             a#hWall:hover p#clk5,
             a#mzlink:hover p#clk6,
             a#chrhlink:hover p#clk7 {display: block;color:red;}
-            a#dirLink:hover img {
-              box-shadow: 5px 5px 12px grey;
-              opacity: 1;
+            a#dirLink img {
               border: 2px solid #666;
+            }
+            a#dirLink:hover img {
+              opacity: 1;
+              box-shadow: 5px 5px 12px grey;
             }
           </style>
           <!-- Museum History In Granite -->
@@ -293,12 +320,13 @@
             </a>
 
           </section>
-          <br><br>
+          <br>
           <!-- Directions Link -->
-          <section>
-            <a id="dirLink"href="#Directions" style="text-decoration:none;">
-              <b>Find The Center of The World</b><br>
-              <img src="./content/assets/images/findus.png" alt="Image of map location of Felicity, CA." style="width:150px;">
+          <section >
+            <a id="dirLink"href="#Directions" style="text-decoration:none; ">
+
+              <b>Directions</b><br>
+              <img src="./content/assets/images/findus.jpg" alt="Image of map location of Felicity, CA." style="width:150px;">
             </a>
           </section>
         </article>
@@ -312,7 +340,6 @@
 
       <!-- Directions -->
       <div id="Directions"></div>
-      <br><br>
       <hr >
       <br>
       <section class="center">
@@ -323,7 +350,7 @@
 
             <div style="border-bottom:1px solid #000;height:1px;width:200px;margin:5px auto;"></div>
           Phone:	(760) 572-0100 <br>
-          Email:	ctrworld@aol.com</b><br><br>
+          Email:	museumforever@gmail.com</b><br><br>
           <p>Exit I-8 on exit 164 towards Sidewinder Road. <br>
             Immediate left on Center of the World Drive (frontage road). (Historic Note: old US 80)
           </p>
