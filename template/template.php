@@ -181,11 +181,11 @@
               <img id="ctwImg"src="./content/assets/images/sm-page.PNG" alt="Image of typed paper about the Center of The World" height="200px">
             </a>
             <!-- Modal -->
-            <div class="modal fade" id="settingCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" style="margin-top:75px;" id="settingCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document" style="max-width:732px; width:100%;">
                 <div class="modal-content" >
                   <div class="modal-body">
-                    <embed id="" src="./content/assets/images/2018 Recent book Page 11Center of the World.pdf" width="700px" height="1000px" />
+                    <img id="" src="./content/assets/images/2018 Recent book Page 11Center of the World-1.jpg"  />
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -216,11 +216,11 @@
             <br> <p id="clk3">click Here</p>
 
             <!-- Modal -->
-            <div class="modal fade" style="margin-top:50px;"id="markerCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" style="margin-top:75px;"id="markerCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document" style="max-width:732px; width:100%;">
                 <div class="modal-content" >
                   <div class="modal-body">
-                    <img src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." style="width:200px;">
+                    <img src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." style="width:200px;border:2px solid #777;">
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -240,7 +240,7 @@
             <br> <p id="clk4">click Here</p>
 
             <!-- Modal -->
-            <div class="modal fade" id="certCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" style="margin-top:75px;" id="certCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document" style="max-width:732px; width:100%;">
                 <div class="modal-content" >
                   <div class="modal-body">
