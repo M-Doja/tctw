@@ -44,7 +44,7 @@
       #navbar-example2 .navbar-brand{ display: none;}
       #title { font-size: 20px;}
       #navbar-example2 a {
-        font-size: 12px;
+        font-size: 15px;
       }
     }
     @media only screen and (max-width: 500px) {
