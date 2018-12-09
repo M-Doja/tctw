@@ -185,7 +185,7 @@
               <div class="modal-dialog" role="document" style="max-width:732px; width:100%;">
                 <div class="modal-content" >
                   <div class="modal-body">
-                    <img id="" src="./content/assets/images/bg-page.PNG"  />
+                    <img id="" src="./content/assets/images/bg-page.png"  />
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
