@@ -63,7 +63,7 @@ function showCarousalImage($imgName){
     <!-- Monument Wall -->
     <div class="carousel-item">
       <img class="d-block w-100" src="./content/assets/images/1P4A9601.jpg" alt="Image of 100ft. granite monument wall.">
-      <p>100ft. monuments are designed for four thousand years. <b>No gurantees</b>.</p>
+      <p>100ft. monuments are designed for four thousand years. <b>No guarantees</b>.</p>
     </div>
     <!-- Logo -->
     <div class="carousel-item" style="padding:20px;">

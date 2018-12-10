@@ -341,8 +341,7 @@
             <div style="border-bottom:1px solid #000;height:1px;width:200px;margin:5px auto;"></div>
           Phone:	(760) 572-0100 <br>
           Email:	museumforever@gmail.com</b><br><br>
-          <p>Exit I-8 on exit 164 towards Sidewinder Road. <br>
-            Immediate left on Center of the World Drive (frontage road). (Historic Note: old US 80)
+          <p>Interstate 8 exit 164 <br>Center of the World Drive is frontage road on North side (Historic Note: old US 80)
           </p>
        </p>
 
