@@ -113,7 +113,7 @@
 
         </figcaption>
         <!-- <a href="./content/assets/images/DPP07DA0C0D152627.jpg" target="_blank"> -->
-          <img class="img-fluid"src="./content/assets/images/DPP07DA0C0D152627.jpg" style=" max-width:700px ;width:100%;border:1.5px solid navy" alt="">
+          <img class="img-fluid"src="./content/assets/DPP07DA0C0D152627.jpg" style=" max-width:700px ;width:100%;border:1.5px solid navy" alt="">
         <!-- </a> -->
       </figure>
       <!-- Quotes -->
@@ -202,7 +202,7 @@
           <section id="pyImg" class="pyImg btn1">
             <a href="http://www.felicity.us/home.html" target="_blank" data-toggle="" data-target="" class="modal-launcher">
               <b>Town of Felicity </b><br>
-              <img id="pymImg" src="./content/assets/images/CW pyramid for CWdotUS.jpg" alt="Image of pyramid in town of Felicity." height="120px">
+              <img id="pymImg" src="./content/assets/CW pyramid for CWdotUS.jpg" alt="Image of pyramid in town of Felicity." height="120px">
             </a>
             <br> <p id="clk2">click Here</p>
           </section>
@@ -295,7 +295,7 @@
           <section>
             <a style="text-decoration:none;" id="mzlink"href="http://mazeofhonor.com" target="_blank">
                 <b>Maze of Honor &reg;</b><br>
-                <img id="mazeImg" src="./content/assets/images/Capture.PNG" alt="">
+                <img id="mazeImg" src="./content/assets/Capture.jpg" alt="">
                 <br> <p id="clk6">click Here</p>
             </a>
 

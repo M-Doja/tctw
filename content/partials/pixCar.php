@@ -46,7 +46,7 @@ function showCarousalImage($imgName){
   <div class="carousel-inner">
     <!-- Felicity CA -->
     <div class="carousel-item active">
-      <img class="d-block w-100" src="./content/assets/images/DJI_0038 - Copy (4).JPG" alt="nineth slide">
+      <img class="d-block w-100" src="./content/assets/DJI_0038 - Copy (4).JPG" alt="nineth slide">
       <p><b>Felicity, California, USA in year 2018</b></p>
     </div>
     <!-- History of Humanity -->
@@ -67,7 +67,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Logo -->
     <div class="carousel-item" style="padding:20px;">
-      <img  class="d-block w-100" src="./content/assets/images/HFP Museum LOGO.jpg" alt="eighth slide">
+      <img  class="d-block w-100" src="./content/assets/HFP Museum LOGO.jpg" alt="eighth slide">
 
       <p style="display:block; margin:3px auto;">Logo of the <b>Museum of History in Granite.</b> </p>
     </div>
@@ -85,7 +85,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Sun dial -->
     <div class="carousel-item" style="height:100%;">
-      <img class="d-block w-100" src="./content/assets/images/COW arm of God sundial 2.JPG" alt='Image of a sculpture of "Arm of God", by Michelango, as a sundial.'>
+      <img class="d-block w-100" src="./content/assets/COW arm of God sundial 2.JPG" alt='Image of a sculpture of "Arm of God", by Michelango, as a sundial.'>
 
       <p style="font-family: new times;"><b>The Felicity sundial</b>.<br> The gnomon, pointing to the Church on the Hill, is a sculpture of <br> Michelango's "Arm of God"  painted in the Sistine Chapel, Rome.</p>
     </div>
@@ -101,7 +101,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Maze of Honor -->
     <div class="carousel-item">
-      <img class="d-block w-100" src="./content/assets/images/DJI_0105.JPG" alt="tenth slide">
+      <img class="d-block w-100" src="./content/assets/DJI_0105.JPG" alt="tenth slide">
       <p>The <b>Maze of Honor&reg;<br> </b> Personal memories and photos are preserved in granite for the ages.</p>
     </div>
   </div>
