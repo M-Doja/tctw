@@ -41,7 +41,6 @@ function showCarousalImage($imgName){
     margin-bottom:10px;
   }
 </style>
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <!-- Felicity CA -->
