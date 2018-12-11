@@ -90,6 +90,8 @@
       max-height:315px;
       height: 100%;
     }
+    h3#title { margin-bottom: -80px;}
+    #quoteSection2 { margin-top: -40px;}
     </style>
   </head>
   <body data-spy="scroll" data-target="#navbar-example2">
@@ -103,21 +105,29 @@
     </header>
 
     <!-- Top Splash Page Section -->
-    <section class="container center" style="margin-top:-20px;">
-      <figure>
-        <figcaption>
+    <section  id="Photos"class="container center" style="margin-top:-20px;">
+      <!-- <figure> -->
+        <!-- <figcaption> -->
           <blockquote cite="http://">
             <b>"... no digital images could have prepared me for the tranquil, lofty sensation <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
           </blockquote>
           <h3  id="title">Museum of History in Granite</h3>
 
-        </figcaption>
+        <!-- </figcaption> -->
         <!-- <a href="./content/assets/images/DPP07DA0C0D152627.jpg" target="_blank"> -->
-          <img class="img-fluid"src="./content/assets/DPP07DA0C0D152627.jpg" style=" max-width:700px ;width:100%;border:1.5px solid navy" alt="">
+
+          <!-- <img class="asyncImage img-fluid" src="./content/assets/DPP07DA0C0D152627.jpg" data-src="./content/assets/images/DPP07DA0C0D152627.jpg" style=" max-width:700px ;width:100%;border:1.5px solid navy" alt=""> -->
         <!-- </a> -->
-      </figure>
+      <!-- </figure> -->
       <!-- Quotes -->
-      <section class="row center">
+      <!-- Photos -->
+      <!-- <br id="Photos"> -->
+      <!-- <hr > -->
+      <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
+        <?php include './content/partials/pixCar.php'; ?>
+      </div>
+
+      <section class="row center" id="quoteSection2">
         <section class="col-md-6">
           <blockquote cite="http://">
             <b>"meticulously researched"<i><small> Los Angeles Times</small> </i></b>
@@ -136,11 +146,11 @@
     <nav id="navbar-example2" class="navbar mr-auto navbar-light">
       <a class="navbar-brand" href="#top"><b>Center of The World &reg;</b> </a>
       <ul class="nav nav-pills ">
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#Photos">Photos</a>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#Home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Photos">Photos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Directions">Directions</a>
@@ -179,7 +189,7 @@
           <section id="ctw-page" class="pdfImg btn1">
             <a href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
                 <b>Setting The Official <br>Center of The World </b><br>
-              <img id="ctwImg"src="./content/assets/images/sm-page.PNG" alt="Image of typed paper about the Center of The World" height="200px">
+              <img id="ctwImg"src="./content/assets/images/sm-page.PNG" alt="Image of typed paper about the Center of The World" height="160px">
             </a>
             <!-- Modal -->
             <div class="modal fade" style="margin-top:75px;" id="settingCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -236,7 +246,7 @@
           <section id="certImg" class="certImg btn1">
             <a href="#" data-toggle="modal" data-target="#certCTWModal" class="modal-launcher">
               <b>Certificate </b><br>
-              <img id="certifImg"src="./content/assets/images/cert-edit.jpg" height="200" >
+              <img id="certifImg"src="./content/assets/images/cert-edit.jpg" height="160" >
             </a>
             <br> <p id="clk4">click Here</p>
 
@@ -262,7 +272,7 @@
         <!-- LEFT SIDE -->
         <article class="col-md-6">
           <style media="screen">
-            #hohWall,#mazeImg, #hillImg {transition: all .3s ease-out;opacity: .7}
+            #hohWall,#mazeImg, #hillImg {transition: all .3s ease-out;opacity: .7; margin-bottom:20px;}
             #hohWall:hover,
             #hillImg:hover,
             #mazeImg:hover {
@@ -310,25 +320,18 @@
             </a>
 
           </section>
-          <br>
+          <br id="Directions">
           <!-- Directions Link -->
-          <section >
+          <!-- <section >
             <a id="dirLink"href="#Directions" style="text-decoration:none; ">
 
               <b>Directions</b><br>
               <img src="./content/assets/images/findus.jpg" alt="Image of map location of Felicity, CA." style="width:150px;">
             </a>
-          </section>
+          </section> -->
         </article>
       </section>
 
-      <!-- Photos -->
-      <br id="Photos">
-      <hr >
-      <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
-        <?php include './content/partials/pixCar.php'; ?>
-        <div id="Directions"></div>
-      </div>
 
       <hr >
       <br>
@@ -348,7 +351,9 @@
        <!-- Map -->
         <div class="mapouter">
           <div class="gmap_canvas">
-            <iframe  id="gmap_canvas" style="border:1px solid navy;" src="https://maps.google.com/maps?q=felicity&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe  id="gmap_canvas" style="border:1px solid navy;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.5807326435865!2d-114.76767332125831!3d32.750321981073206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d6fbcdaeba9197%3A0xa31d304ac96df130!2sMuseum+of+History+In+Granite!5e0!3m2!1sen!2sus!4v1544491962256" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+            <!-- <iframe  id="gmap_canvas" style="border:1px solid navy;" src="https://maps.google.com/maps?q=felicity&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
             <a href="https://www.pureblack.de/webdesign-wiesbaden/"></a>
           </div>
           <style>.mapouter{margin:auto;text-align:center;max-height:315px;height: 100%; max-width:787px; width:100%;}.gmap_canvas {margin:auto;overflow:hidden;background:none!important;max-height:315px;height: 100%; max-width:787px; width:100%;}</style>
@@ -356,7 +361,9 @@
       </section>
     </main>
     <br><br>
-
+    <div class="asyncImage" data-src="/images/background.jpg">
+      ...
+    </div>
     <div class="center footer">
       <footer><small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?>.<br><?php siteVersion(); ?></small></footer>
     </div>
@@ -367,8 +374,14 @@
 
     <script type="text/javascript">
     $('.carousel').carousel({
-      interval: 3000
+      interval: 2000
     });
+    $('.carousel').on('mouseover', function(){
+      $('.carousel').carousel({
+        pause: true,
+        interval: false
+      });
+    })
     $('body').scrollspy({ target: '#navbar-example2' });
     // When the user scrolls the page, execute myFunction
     window.onscroll = function() {myFunction()};
@@ -387,6 +400,24 @@
         navbar.classList.remove("sticky");
       }
     }
+
+    (() => {
+      'use strict';
+      // Page is loaded
+      const objects = document.getElementsByClassName('asyncImage');
+      Array.from(objects).map((item) => {
+        // Start loading image
+        const img = new Image();
+        img.src = item.dataset.src;
+        // Once image is loaded replace the src of the HTML element
+        img.onload = () => {
+          item.classList.remove('asyncImage');
+          return item.nodeName === 'IMG' ?
+            item.src = item.dataset.src :
+            item.style.backgroundImage = `url(${item.dataset.src})`;
+        };
+      });
+    })();
     </script>
   </body>
 </html>
