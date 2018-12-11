@@ -189,7 +189,7 @@
           <section id="ctw-page" class="pdfImg btn1">
             <a href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
                 <b>Setting The Official <br>Center of The World </b><br>
-              <img id="ctwImg"src="./content/assets/images/sm-page.PNG" alt="Image of typed paper about the Center of The World" height="160px">
+              <img id="ctwImg"src="./content/assets/sm-page-ss.jpg" alt="Image of typed paper about the Center of The World" height="160px">
             </a>
             <!-- Modal -->
             <div class="modal fade" style="margin-top:75px;" id="settingCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -221,7 +221,7 @@
           <section id="markerImg" class="markerImg btn1">
             <a href="#" data-toggle="modal" data-target="#markerCTWModal" class="modal-launcher">
               <b>Official Center of The World <br>set by United States and International Law </b><br>
-              <img id="markImg"src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." height="80px" style="margin:10px auto;">
+              <img id="markImg"src="./content/assets/Plaque Center-ss.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." height="80px" style="margin:10px auto;">
               <br> <caption><b>found inside the pyramid</b> </caption>
             </a>
             <br> <p id="clk3">click Here</p>
@@ -246,7 +246,7 @@
           <section id="certImg" class="certImg btn1">
             <a href="#" data-toggle="modal" data-target="#certCTWModal" class="modal-launcher">
               <b>Certificate </b><br>
-              <img id="certifImg"src="./content/assets/images/cert-edit.jpg" height="160" >
+              <img id="certifImg"src="./content/assets/cert-edit-ss.jpg" height="160" >
             </a>
             <br> <p id="clk4">click Here</p>
 
@@ -354,16 +354,14 @@
             <iframe  id="gmap_canvas" style="border:1px solid navy;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.5807326435865!2d-114.76767332125831!3d32.750321981073206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d6fbcdaeba9197%3A0xa31d304ac96df130!2sMuseum+of+History+In+Granite!5e0!3m2!1sen!2sus!4v1544491962256" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
             <!-- <iframe  id="gmap_canvas" style="border:1px solid navy;" src="https://maps.google.com/maps?q=felicity&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
-            <a href="https://www.pureblack.de/webdesign-wiesbaden/"></a>
+            <!-- <a href="https://www.pureblack.de/webdesign-wiesbaden/"></a> -->
           </div>
           <style>.mapouter{margin:auto;text-align:center;max-height:315px;height: 100%; max-width:787px; width:100%;}.gmap_canvas {margin:auto;overflow:hidden;background:none!important;max-height:315px;height: 100%; max-width:787px; width:100%;}</style>
         </div>
       </section>
     </main>
     <br><br>
-    <div class="asyncImage" data-src="/images/background.jpg">
-      ...
-    </div>
+
     <div class="center footer">
       <footer><small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?>.<br><?php siteVersion(); ?></small></footer>
     </div>
