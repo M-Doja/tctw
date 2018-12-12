@@ -92,6 +92,13 @@
     }
     h3#title { margin-bottom: -80px;}
     #quoteSection2 { margin-top: -40px;}
+    .img {
+      width: 25px;
+      height: 25px;
+      background: url(loading.gif) 50% no-repeat;
+      /* border: 1px solid black; */
+      border-radius: 5px;
+    }
     </style>
   </head>
   <body data-spy="scroll" data-target="#navbar-example2">
@@ -104,6 +111,15 @@
       </h1>
     </header>
 
+    <img class="img" src="./content/assets/loading.gif">
+<script type="text/javascript">
+var image = document.images[0];
+var downloadingImage = new Image();
+downloadingImage.onload = function(){
+  image.src = this.src;
+};
+downloadingImage.src = "./content/assets/2000/maze.jpg";
+</script>
     <!-- Top Splash Page Section -->
     <section  id="Photos"class="container center" style="margin-top:-20px;">
       <!-- <figure> -->
@@ -371,12 +387,15 @@
     <div class="center footer">
       <footer><small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?>.<br><?php siteVersion(); ?></small></footer>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
+    $(window).load(function() {
+        $(".loader").fadeOut("slow");
+    });
     $('.carousel').carousel({
       interval: 2000
     });
