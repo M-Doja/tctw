@@ -56,7 +56,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Felicity Stone -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/images/1P4A9317.jpg" src="./content/assets/1P4A9317-sm.jpg" alt="Image of Felicity Stone&trade;">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/1P4A9317-ss.jpg" src="./content/assets/1P4A9317-ss.jpg" alt="Image of Felicity Stone&trade;">
       <p><b> Felicity Stone&trade;</b><br> At the center of the eight <b>"History of Humanity"</b> monuments, is a Rosetta Stone for scholars and visitors of a distant future should the English language be forgotten.</p>
     </div>
     <!-- Monument Wall -->
@@ -66,41 +66,41 @@ function showCarousalImage($imgName){
     </div>
     <!-- Logo -->
     <div class="carousel-item" style="padding:20px;">
-      <img  class="d-block w-100 asyncImage" data-src="./content/assets/images/HFP Museum LOGO.jpg" src="./content/assets/HFP Museum LOGO-sm.jpg" alt="Logo of the Museum of History in Granite.">
+      <img  class="d-block w-100 asyncImage" data-src="./content/assets/HFP Museum LOGO-ss.jpg" src="./content/assets/HFP Museum LOGO-ss.jpg" alt="Logo of the Museum of History in Granite.">
 
       <p style="display:block; margin:3px auto;">Logo of the <b>Museum of History in Granite.</b> </p>
     </div>
     <!-- Granite Panel -->
     <div class="carousel-item">
-      <img class="d-block img-fluid asyncImage" data-src="./content/assets/images/History_of_Humanity_02_13 copie.jpg" src="./content/assets/History_of_Humanity_02_13 copie-sm.jpg" alt="Image of one of the hundreds of panels of history that are engraved in granite.">
+      <img class="d-block img-fluid asyncImage" data-src="./content/assets/History_of_Humanity_02_13 copie-ss.jpg" src="./content/assets/History_of_Humanity_02_13 copie-ss.jpg" alt="Image of one of the hundreds of panels of history that are engraved in granite.">
 
       <p>Hundreds of panels of history are engraved in granite in this museum.</p>
     </div>
     <!-- Last Invastion -->
     <div class="carousel-item" style="padding:20px;">
-      <img style="margin-bottom:5px;" class="d-block w-100 asyncImage" data-src="./IMAGESDUMP/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy.JPG" src="./content/assets/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy-sm.JPG" alt="Image of panel depicting text regarding last known U.S. invasion.">
+      <img style="margin-bottom:5px;" class="d-block w-100 asyncImage" data-src="./IMAGESDUMP/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy-ss.jpg" src="./content/assets/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy-ss.jpg" alt="Image of panel depicting text regarding last known U.S. invasion.">
 
       <p style="display:block; margin:-5px auto 5px;"><b>Last Invasion of The United States</b> <br>The President of France sent his Consul to the 9 March 2018 Dedication. </p>
     </div>
     <!-- Sun dial -->
     <div class="carousel-item" style="height:100%;">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/images/COW arm of God sundial 2.JPG" src="./content/assets/images/COW arm of God sundial 2-sm.JPG" alt='Image of a sculpture of "Arm of God", by Michelango, as a sundial.'>
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/COW arm of God sundial 2-ss.jpg" src="./content/assets/COW arm of God sundial 2-ss.jpg" alt='Image of a sculpture of "Arm of God", by Michelango, as a sundial.'>
 
       <p style="font-family: new times;"><b>The Felicity sundial</b>.<br> The gnomon, pointing to the Church on the Hill, is a sculpture of <br> Michelango's "Arm of God"  painted in the Sistine Chapel, Rome.</p>
     </div>
     <!-- Church -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/images/DPP07DA0C09150651 copy.jpg" src="./content/assets/images/DPP07DA0C09150651 copy-sm.jpg" alt="Church on the Hill at Felicity">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/DPP07DA0C09150651 copy-ss.jpg" src="./content/assets/DPP07DA0C09150651 copy-ss.jpg" alt="Church on the Hill at Felicity">
       <p><b>The Church on the Hill at Felicity</b> <br> was dedicated in 2008 by Monsignor Richard W. O'Keeffe, E.V. and <br>The Reverend Arthur P. Stanley, Chaplain of the Her Britannic Majesty's Forces. </p>
     </div>
     <!-- Eiffel Tower -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="/content/assets/images/IMG_20181209_111126.jpg" src="./content/assets/IMG_20181209_111126-sm.jpg" alt="Eiffel Tower staircase section number 12.">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/IMG_20181209_111126-ss.jpg" src="./content/assets/IMG_20181209_111126-ss.jpg" alt="Eiffel Tower staircase section number 12.">
       <p>Section number 12 of the original staircase of the <b>Eiffel Tower</b>. <br>The heavy 1869 steel staircase later caused the tower to sway. <br>500 feet were replaced in 1983 and sold as 20 certified sections. </p>
     </div>
     <!-- Maze of Honor -->
     <div class="carousel-item">
-      <img class="d-block w-100" src="./content/assets/images/DJI_0105.JPG" alt="tenth slide">
+      <img class="d-block w-100" src="./content/assets/DJI_0105-ss.JPG" alt="tenth slide">
       <p>The <b>Maze of Honor&reg;<br> </b> Personal memories and photos are preserved in granite for the ages.</p>
     </div>
   </div>
