@@ -45,7 +45,7 @@ function showCarousalImage($imgName){
   <div class="carousel-inner">
     <!-- Felicity CA -->
     <div class="carousel-item active">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/images/DJI_0038 - Copy (4).JPG" src="./content/assets/DJI_0038 - Copy (4)-sm.JPG" alt="Felicity, California, USA in year 2018">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/DJI_0038 - Copy (4)-ss.jpg" src="./content/assets/DJI_0038 - Copy (4)-ss.jpg" alt="Felicity, California, USA in year 2018">
       <p><b>Felicity, California, USA in year 2018</b></p>
     </div>
     <!-- History of Humanity -->
@@ -99,8 +99,8 @@ function showCarousalImage($imgName){
       <p>Section number 12 of the original staircase of the <b>Eiffel Tower</b>. <br>The heavy 1869 steel staircase later caused the tower to sway. <br>500 feet were replaced in 1983 and sold as 20 certified sections. </p>
     </div>
     <!-- Maze of Honor -->
-    <div class="carousel-item">
-      <img class="d-block w-100" src="./content/assets/DJI_0105-ss.JPG" alt="tenth slide">
+    <div class="carousel-item asyncImage">
+      <img class="d-block w-100" data-src="./content/assets/DJI_0105-ss.jpg" src="./content/assets/DJI_0105-ss.jpg" alt="Overview image of the Maze Of Honor&reg;">
       <p>The <b>Maze of Honor&reg;<br> </b> Personal memories and photos are preserved in granite for the ages.</p>
     </div>
   </div>
