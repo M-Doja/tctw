@@ -50,7 +50,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- History of Humanity -->
     <div class="carousel-item ">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" alt='The eight monuments of the <b>"History of Humanity"'>
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" alt='The eight monuments of the "History of Humanity"'>
 
         <p style="font-family: new times;">The eight monuments of the <b>"History of Humanity".</b> </p>
     </div>
