@@ -4,8 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="This is the official Center of the World website. Located in Felicity, CA, it is host to a number of attractions such as The Museum of History in Granite and the Church on the Hill.">
   <meta name="keywords" content="museum, granite, Felicity, center, world, maze, honor">
-  <title><?php pageTitle(); ?> | <?php siteName(); ?>&reg;</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title><?php pageTitle(); ?> | <?php siteName(); ?>&reg;</title>
   <head>
     <style>
     html {border: #674d3c 5px solid;}
@@ -264,7 +264,7 @@
                     <img src="./content/assets/images/cert-edit.jpg" height="200" style="height:100%;" >
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                    <button type="button" class="btnit sta" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
