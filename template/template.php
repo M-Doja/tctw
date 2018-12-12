@@ -92,13 +92,6 @@
     }
     h3#title { margin-bottom: -80px;}
     #quoteSection2 { margin-top: -40px;}
-    .img {
-      width: 25px;
-      height: 25px;
-      background: url(loading.gif) 50% no-repeat;
-      /* border: 1px solid black; */
-      border-radius: 5px;
-    }
     </style>
   </head>
   <body data-spy="scroll" data-target="#navbar-example2">
@@ -111,14 +104,7 @@
       </h1>
     </header>
 
-    <img class="img" src="./content/assets/loading.gif">
-<script type="text/javascript">
-var image = document.images[0];
-var downloadingImage = new Image();
-downloadingImage.onload = function(){
-  image.src = this.src;
-};
-downloadingImage.src = "./content/assets/2000/maze.jpg";
+
 </script>
     <!-- Top Splash Page Section -->
     <section  id="Photos"class="container center" style="margin-top:-20px;">
@@ -394,7 +380,10 @@ downloadingImage.src = "./content/assets/2000/maze.jpg";
 
     <script type="text/javascript">
     $(window).load(function() {
+      if (document.readyState == 'complete') {
+
         $(".loader").fadeOut("slow");
+      }
     });
     $('.carousel').carousel({
       interval: 2000
