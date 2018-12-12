@@ -97,7 +97,7 @@
   <body data-spy="scroll" data-target="#navbar-example2">
 
     <!-- Site Title -->
-    <header id="top">
+    <header>
       <!-- <p class="center" style="margin-bottom:-5px;">Welcome to</p> -->
       <h1 class="center" style="">Center of the World
         <span style="font-size:2.5vw">&reg;</span>
@@ -144,7 +144,7 @@
 
     <!-- Navbar -->
     <nav id="navbar-example2" class="navbar mr-auto navbar-light">
-      <a class="navbar-brand" href="#top"><b>Center of The World &reg;</b> </a>
+      <a class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
       <ul class="nav nav-pills ">
         <!-- <li class="nav-item">
           <a class="nav-link" href="#Photos">Photos</a>
