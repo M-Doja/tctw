@@ -178,6 +178,12 @@
           #certImg:hover #clk4,
           #pyImg:hover #clk2,
           #markerImg:hover #clk3 {display: inline-block;color:red;}
+          .modal-footer button {
+            background-color: #674d3c;
+            color: #fff;
+            font-weight: bold;
+            font-family: new times;
+          }
 
           /* #pymImg:hover, */
           /* #markImg:hover, */
@@ -199,7 +205,7 @@
                     <img id="" src="./content/assets/images/bg-page.jpg"  />
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
@@ -234,7 +240,7 @@
                     <img src="./content/assets/images/Plaque Center.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." style="width:200px;border:2px solid #777;">
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
@@ -258,7 +264,7 @@
                     <img src="./content/assets/images/cert-edit.jpg" height="200" style="height:100%;" >
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
