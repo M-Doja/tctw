@@ -45,7 +45,7 @@ function showCarousalImage($imgName){
   <div class="carousel-inner">
     <!-- Felicity CA -->
     <div class="carousel-item active">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/felicity.jpg" src="./content/assets/felicity.jpg" alt="Felicity, California, USA in year 2018">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/felicity.jpg" src="./content/assets/2000/felicity.jpg" alt="Felicity, California, USA in year 2018">
       <p><b>Felicity, California, USA in year 2018</b></p>
     </div>
     <!-- History of Humanity -->
