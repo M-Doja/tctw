@@ -19,8 +19,3 @@ RewriteRule ^(.*)$ index.php?page=$1 [L]
 <FilesMatch "\.(html?|txt|css|js|php|pl)$">
   SetOutputFilter DEFLATE
 </FilesMatch>
-
-//Caching schema
-<FilesMatch "\.(jpg|png|jpeg|gif|js|css)$">
-Header set Cache-Control "proxy-revalidate, max-age=7200"
-</FilesMatch>
