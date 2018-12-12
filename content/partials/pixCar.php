@@ -45,62 +45,62 @@ function showCarousalImage($imgName){
   <div class="carousel-inner">
     <!-- Felicity CA -->
     <div class="carousel-item active">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/DJI_0038 - Copy (4)-ss.jpg" src="./content/assets/DJI_0038 - Copy (4)-ss.jpg" alt="Felicity, California, USA in year 2018">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/felicity.jpg" src="./content/assets/felicity.jpg" alt="Felicity, California, USA in year 2018">
       <p><b>Felicity, California, USA in year 2018</b></p>
     </div>
     <!-- History of Humanity -->
     <div class="carousel-item ">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" alt='The eight monuments of the "History of Humanity"'>
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/eightwalls.jpg" src="./content/assets/2000/eightwalls.jpg" alt='The eight monuments of the "History of Humanity"'>
 
         <p style="font-family: new times;">The eight monuments of the <b>"History of Humanity".</b> </p>
     </div>
     <!-- Felicity Stone -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/1P4A9317-ss.jpg" src="./content/assets/1P4A9317-ss.jpg" alt="Image of Felicity Stone&trade;">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/felicitystone.jpg" src="./content/assets/2000/felicitystone.jpg" alt="Image of Felicity Stone&trade;">
       <p><b> Felicity Stone&trade;</b><br> At the center of the eight <b>"History of Humanity"</b> monuments, is a Rosetta Stone for scholars and visitors of a distant future should the English language be forgotten.</p>
     </div>
     <!-- Monument Wall -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/images/1P4A9601.jpg" src="./content/assets/1P4A9601-sm.jpg" alt="Image of 100ft. granite monument wall.">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/wall.jpg" src="./content/assets/2000/wall.jpg" alt="Image of 100ft. granite monument wall.">
       <p>100ft. monuments are designed for four thousand years. <b>No guarantees</b>.</p>
     </div>
     <!-- Logo -->
     <div class="carousel-item" style="padding:20px;">
-      <img  class="d-block w-100 asyncImage" data-src="./content/assets/HFP Museum LOGO-ss.jpg" src="./content/assets/HFP Museum LOGO-ss.jpg" alt="Logo of the Museum of History in Granite.">
+      <img  class="d-block w-100 asyncImage" data-src="./content/assets/2000/logo.jpg" src="./content/assets/2000/logo.jpg" alt="Logo of the Museum of History in Granite.">
 
       <p style="display:block; margin:3px auto;">Logo of the <b>Museum of History in Granite.</b> </p>
     </div>
     <!-- Granite Panel -->
     <div class="carousel-item">
-      <img class="d-block img-fluid asyncImage" data-src="./content/assets/2000/History_of_Humanity_02_13 copie-ss.jpg" src="./content/assets/2000/History_of_Humanity_02_13 copie-ss.jpg" alt="Image of one of the hundreds of panels of history that are engraved in granite.">
+      <img class="d-block img-fluid asyncImage" data-src="./content/assets/2000/panel.jpg" src="./content/assets/2000/panel.jpg" alt="Image of one of the hundreds of panels of history that are engraved in granite.">
 
       <p>Hundreds of panels of history are engraved in granite in this museum.</p>
     </div>
     <!-- Last Invastion -->
     <div class="carousel-item" style="padding:20px;">
-      <img style="margin-bottom:5px;" class="d-block w-100 asyncImage" data-src="./IMAGESDUMP/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy-ss.jpg" src="./content/assets/A historic monument is Dedicated on 9 March 2018 - Copy - Copy - Copy - Copy-ss.jpg" alt="Image of panel depicting text regarding last known U.S. invasion.">
+      <img style="margin-bottom:5px;" class="d-block w-100 asyncImage" data-src="./content/assets/2000/invasion.jpg" src="./content/assets/2000/invasion.jpg" alt="Image of panel depicting text regarding last known U.S. invasion.">
 
       <p style="display:block; margin:-5px auto 5px;"><b>Last Invasion of The United States</b> <br>The President of France sent his Consul to the 9 March 2018 Dedication. </p>
     </div>
     <!-- Sun dial -->
     <div class="carousel-item" style="height:100%;">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/COW arm of God sundial 2-ss.jpg" src="./content/assets/COW arm of God sundial 2-ss.jpg" alt='Image of a sculpture of "Arm of God", by Michelango, as a sundial.'>
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/sundial.jpg" src="./content/assets/2000/sundial.jpg" alt='Image of a sculpture of "Arm of God", by Michelango, as a sundial.'>
 
       <p style="font-family: new times;"><b>The Felicity sundial</b>.<br> The gnomon, pointing to the Church on the Hill, is a sculpture of <br> Michelango's "Arm of God"  painted in the Sistine Chapel, Rome.</p>
     </div>
     <!-- Church -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/DPP07DA0C09150651 copy-ss.jpg" src="./content/assets/2000/DPP07DA0C09150651 copy-ss.jpg" alt="Church on the Hill at Felicity">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/church.jpg" src="./content/assets/2000/church.jpg" alt="Church on the Hill at Felicity">
       <p><b>The Church on the Hill at Felicity</b> <br> was dedicated in 2008 by Monsignor Richard W. O'Keeffe, E.V. and <br>The Reverend Arthur P. Stanley, Chaplain of the Her Britannic Majesty's Forces. </p>
     </div>
     <!-- Eiffel Tower -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/IMG_20181209_111126-ss.jpg" src="./content/assets/IMG_20181209_111126-ss.jpg" alt="Eiffel Tower staircase section number 12.">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/tower.jpg" src="./content/assets/2000/tower.jpg" alt="Eiffel Tower staircase section number 12.">
       <p>Section number 12 of the original staircase of the <b>Eiffel Tower</b>. <br>The heavy 1869 steel staircase later caused the tower to sway. <br>500 feet were replaced in 1983 and sold as 20 certified sections. </p>
     </div>
     <!-- Maze of Honor -->
     <div class="carousel-item asyncImage">
-      <img class="d-block w-100" data-src="./content/assets/2000/DJI_0105-ss.jpg" src="./content/assets/2000/DJI_0105-ss.jpg" alt="Overview image of the Maze Of Honor&reg;">
+      <img class="d-block w-100" data-src="./content/assets/2000/maze.jpg" src="./content/assets/2000/maze.jpg" alt="Overview image of the Maze Of Honor&reg;">
       <p>The <b>Maze of Honor&reg;<br> </b> Personal memories and photos are preserved in granite for the ages.</p>
     </div>
   </div>
