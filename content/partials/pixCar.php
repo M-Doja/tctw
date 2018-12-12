@@ -45,12 +45,12 @@ function showCarousalImage($imgName){
   <div class="carousel-inner">
     <!-- Felicity CA -->
     <div class="carousel-item active">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/DJI_0038 - Copy (4)-ss.jpg" src="./content/assets/DJI_0038 - Copy (4)-ss.jpg" alt="Felicity, California, USA in year 2018">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/DJI_0038 - Copy (4)-ss.jpg" src="./content/assets/DJI_0038 - Copy (4)-ss.jpg" alt="Felicity, California, USA in year 2018">
       <p><b>Felicity, California, USA in year 2018</b></p>
     </div>
     <!-- History of Humanity -->
     <div class="carousel-item ">
-      <img class="d-block w-100 asyncImage" data-src="./IMAGESDUMP/History of Humanity monuments 3.jpg" src="./content/assets/History of Humanity monuments 3-sm.jpg" alt='The eight monuments of the <b>"History of Humanity"'>
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" src="./content/assets/2000/History of Humanity monuments 3-ss.jpg" alt='The eight monuments of the <b>"History of Humanity"'>
 
         <p style="font-family: new times;">The eight monuments of the <b>"History of Humanity".</b> </p>
     </div>
@@ -72,7 +72,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Granite Panel -->
     <div class="carousel-item">
-      <img class="d-block img-fluid asyncImage" data-src="./content/assets/History_of_Humanity_02_13 copie-ss.jpg" src="./content/assets/History_of_Humanity_02_13 copie-ss.jpg" alt="Image of one of the hundreds of panels of history that are engraved in granite.">
+      <img class="d-block img-fluid asyncImage" data-src="./content/assets/2000/History_of_Humanity_02_13 copie-ss.jpg" src="./content/assets/2000/History_of_Humanity_02_13 copie-ss.jpg" alt="Image of one of the hundreds of panels of history that are engraved in granite.">
 
       <p>Hundreds of panels of history are engraved in granite in this museum.</p>
     </div>
@@ -90,7 +90,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Church -->
     <div class="carousel-item">
-      <img class="d-block w-100 asyncImage" data-src="./content/assets/DPP07DA0C09150651 copy-ss.jpg" src="./content/assets/DPP07DA0C09150651 copy-ss.jpg" alt="Church on the Hill at Felicity">
+      <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/DPP07DA0C09150651 copy-ss.jpg" src="./content/assets/2000/DPP07DA0C09150651 copy-ss.jpg" alt="Church on the Hill at Felicity">
       <p><b>The Church on the Hill at Felicity</b> <br> was dedicated in 2008 by Monsignor Richard W. O'Keeffe, E.V. and <br>The Reverend Arthur P. Stanley, Chaplain of the Her Britannic Majesty's Forces. </p>
     </div>
     <!-- Eiffel Tower -->
@@ -100,7 +100,7 @@ function showCarousalImage($imgName){
     </div>
     <!-- Maze of Honor -->
     <div class="carousel-item asyncImage">
-      <img class="d-block w-100" data-src="./content/assets/DJI_0105-ss.jpg" src="./content/assets/DJI_0105-ss.jpg" alt="Overview image of the Maze Of Honor&reg;">
+      <img class="d-block w-100" data-src="./content/assets/2000/DJI_0105-ss.jpg" src="./content/assets/2000/DJI_0105-ss.jpg" alt="Overview image of the Maze Of Honor&reg;">
       <p>The <b>Maze of Honor&reg;<br> </b> Personal memories and photos are preserved in granite for the ages.</p>
     </div>
   </div>
