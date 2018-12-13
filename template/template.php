@@ -198,6 +198,7 @@
             <a href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
                 <b>Setting The Official <br>Center of The World </b><br>
               <img class="lazy" id="ctwImg"src="./content/assets/home/page.jpg" alt="Image of typed paper about the Center of The World" height="160px">
+              <div class="loader"></div>
             </a>
             <!-- Modal -->
             <div class="modal fade" style="margin-top:75px;" id="settingCTWModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -221,6 +222,7 @@
             <a href="http://www.felicity.us/home.html" target="_blank" data-toggle="" data-target="" class="modal-launcher">
               <b>Town of Felicity </b><br>
               <img id="pymImg" class="lazy" src="./content/assets/home/pyramid.jpg" alt="Image of pyramid in town of Felicity." height="120px">
+              <div class="loader"></div>
             </a>
             <br> <p id="clk2">click Here</p>
           </section>
@@ -230,6 +232,7 @@
             <a href="#" data-toggle="modal" data-target="#markerCTWModal" class="modal-launcher">
               <b>Official Center of The World <br>set by United States and International Law </b><br>
               <img class="lazy" id="markImg"src="./content/assets/home/dot.jpg" alt="Image of bronze plaque on ground marking center of world inside the pyramid." height="80px" style="margin:10px auto;">
+              <div class="loader"></div>
               <br> <caption><b>found inside the pyramid</b> </caption>
             </a>
             <br> <p id="clk3">click Here</p>
@@ -255,6 +258,7 @@
             <a href="#" data-toggle="modal" data-target="#certCTWModal" class="modal-launcher">
               <b>Certificate </b><br>
               <img id="certifImg" class="lazy" src="./content/assets/home/cert.jpg" height="160" >
+              <div class="loader"></div>
             </a>
             <br> <p id="clk4">click Here</p>
 
@@ -303,6 +307,7 @@
           <section>
             <a style="text-decoration:none;"id="hWall"href="http://museumforever.org" class="" target="_blank">
                 <b>Museum of <br>History in Granite</b><br>
+                <div class="loader"></div>
               <img id="hohWall" class="lazy" src="./content/assets/home/overview.jpg" alt="History of Humanity wall">
               <p id="clk5">click Here</p>
             </a>
@@ -313,6 +318,7 @@
           <section>
             <a style="text-decoration:none;" id="mzlink"href="http://mazeofhonor.com" target="_blank">
                 <b>Maze of Honor &reg;</b><br>
+                <div class="loader"></div>
                 <img id="mazeImg" class="lazy" src="./content/assets/home/maze.jpg" alt="">
                 <br> <p id="clk6">click Here</p>
             </a>
@@ -323,6 +329,7 @@
           <section>
             <a id="chrhlink" style="text-decoration:none;" href="http://www.parafame.org/church_on_the_hill_at_felicity.htm" target="_blank">
                 <b>Church on the Hill at Felicity</b><br>
+                <div class="loader"></div>
                 <img class="lazy" id="hillImg" src="./content/assets/home/church.jpg" alt="">
                 <br> <p id="clk7">click Here</p>
             </a>
