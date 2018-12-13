@@ -313,7 +313,7 @@
           <section>
             <a style="text-decoration:none;" id="mzlink"href="http://mazeofhonor.com" target="_blank">
                 <b>Maze of Honor &reg;</b><br>
-                <div class="loader"></div>
+                <!-- <div class="loader"></div> -->
                 <img id="mazeImg" class="lazy" src="./content/assets/home/maze.jpg" alt="">
                 <br> <p id="clk6">click Here</p>
             </a>
@@ -324,7 +324,7 @@
           <section>
             <a id="chrhlink" style="text-decoration:none;" href="http://www.parafame.org/church_on_the_hill_at_felicity.htm" target="_blank">
                 <b>Church on the Hill at Felicity</b><br>
-                <div class="loader"></div>
+                <!-- <div class="loader"></div> -->
                 <img class="lazy" id="hillImg" src="./content/assets/home/church.jpg" alt="">
                 <br> <p id="clk7">click Here</p>
             </a>
