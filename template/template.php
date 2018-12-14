@@ -34,17 +34,19 @@
     header h1 {
       font-size:4.5vw; font-family:new times;margin-bottom:20px;color:navy;border-bottom:3px solid navy;
     }
+    #space {display: none;}
     @media only screen and (max-width: 917px) {
       header h1 { font-size: 6vw;}
     }
     @media only screen and (max-width: 545px) {
       img#tl { margin-top: -130px; }
       header h1 { font-size: 8.5vw;}
-      #navbar-example2 .navbar-brand{ display: none;}
+      #navbar-main .navbar-brand{ display: none;}
       #title { font-size: 20px;}
-      #navbar-example2 a {
+      #navbar-main a {
         font-size: 15px;
       }
+      #space {display: block;}
     }
     @media only screen and (max-width: 500px) {
       img#tl { margin-top: -120px; }
@@ -52,7 +54,7 @@
     @media only screen and (max-width: 460px) {
       img#tl { margin-top: -100px; }
     }
-    #navbar-example2 {
+    #navbar-main {
       overflow: hidden;
       margin: 0 auto 45px;
       z-index: 999999;
@@ -61,7 +63,7 @@
       font-family: new times;
       border:1px solid #674d3c;
     }
-    #navbar-example2 a {
+    #navbar-main a {
       float: left;
       display: block;
       color: #f2f2f2;
@@ -94,7 +96,7 @@
     #quoteSection2 { margin-top: -40px;}
     </style>
   </head>
-  <body data-spy="scroll" data-target="#navbar-example2">
+  <body data-spy="scroll" data-target="#navbar-main">
 
     <!-- Site Title -->
     <header>
@@ -104,7 +106,6 @@
     </header>
 
 
-</script>
     <!-- Top Splash Page Section -->
     <section  id="Photos"class="container center" style="margin-top:-20px;">
       <blockquote cite="http://">
@@ -131,7 +132,7 @@
     <div id="Home" style=" text-align: center;margin: 35px auto;"></div>
 
     <!-- Navbar -->
-    <nav id="navbar-example2" class="navbar mr-auto navbar-light">
+    <nav id="navbar-main" class="navbar mr-auto navbar-light">
       <a class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
       <ul class="nav nav-pills ">
         <li class="nav-item">
@@ -324,6 +325,7 @@
 
 
       <hr >
+      <br id="space">
       <br>
       <!-- Directions -->
       <section class="center">
@@ -356,22 +358,20 @@
       <footer><small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?></small></footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
 
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-    var myLazyLoad = new LazyLoad({
-        elements_selector: ".lazy"
-    });
+    var myLazyLoad = new LazyLoad({elements_selector: ".lazy"});
+
     $(window).on('load', function() {
       if (document.readyState == 'complete') {
         $(".loader").fadeOut("slow");
       }
     });
+
     $('.carousel').carousel({interval: 2000});
     $('.carousel').on('mouseover', function(){
       $('.carousel').carousel({
@@ -379,12 +379,12 @@
         interval: false
       });
     });
-    $('body').scrollspy({ target: '#navbar-example2' });
+    $('body').scrollspy({ target: '#navbar-main' });
     // When the user scrolls the page, execute myFunction
     window.onscroll = function() {myFunction()};
 
     // Get the navbar
-    var navbar = document.getElementById("navbar-example2");
+    var navbar = document.getElementById("navbar-main");
 
     // Get the offset position of the navbar
     var sticky = navbar.offsetTop;
