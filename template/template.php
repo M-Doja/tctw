@@ -98,7 +98,6 @@
 
     <!-- Site Title -->
     <header>
-      <!-- <p class="center" style="margin-bottom:-5px;">Welcome to</p> -->
       <h1 class="center" style="">Center of the World
         <span style="font-size:2.5vw">&reg;</span>
       </h1>
@@ -108,23 +107,10 @@
 </script>
     <!-- Top Splash Page Section -->
     <section  id="Photos"class="container center" style="margin-top:-20px;">
-      <!-- <figure> -->
-        <!-- <figcaption> -->
-          <blockquote cite="http://">
-            <b>"... no digital images could have prepared me for the tranquil, lofty sensation <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
-          </blockquote>
-          <h3  id="title">Museum of History in Granite</h3>
+      <blockquote cite="http://">
+        <b>"... no digital images could have prepared me for the tranquil, lofty sensation <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
+      </blockquote>
 
-        <!-- </figcaption> -->
-        <!-- <a href="./content/assets/images/DPP07DA0C0D152627.jpg" target="_blank"> -->
-
-          <!-- <img class="asyncImage img-fluid" src="./content/assets/DPP07DA0C0D152627.jpg" data-src="./content/assets/images/DPP07DA0C0D152627.jpg" style=" max-width:700px ;width:100%;border:1.5px solid navy" alt=""> -->
-        <!-- </a> -->
-      <!-- </figure> -->
-      <!-- Quotes -->
-      <!-- Photos -->
-      <!-- <br id="Photos"> -->
-      <!-- <hr > -->
       <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
         <?php include './content/partials/pixCar.php'; ?>
       </div>
@@ -148,9 +134,6 @@
     <nav id="navbar-example2" class="navbar mr-auto navbar-light">
       <a class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
       <ul class="nav nav-pills ">
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#Photos">Photos</a>
-        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#Home">Home</a>
         </li>
@@ -187,9 +170,6 @@
             font-family: new times;
           }
 
-          /* #pymImg:hover, */
-          /* #markImg:hover, */
-          /* #ctwImg:hover  */
         </style>
         <!-- RIGHT SIDE -->
         <article class="col-md-6">
@@ -373,7 +353,7 @@
     <br><br>
 
     <div class="center footer">
-      <footer><small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?>.<br><?php siteVersion(); ?></small></footer>
+      <footer><small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?></small></footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
