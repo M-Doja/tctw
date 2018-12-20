@@ -144,7 +144,7 @@
         </section>
       </section>
     </section>
-    <div  style=" text-align: center;margin: 35px auto;"></div>
+    <div  style=" text-align: center;margin:auto;"></div>
 
     <!-- MAIN SITE CONTENT -->
     <main class="container center content">
@@ -270,7 +270,7 @@
             a p {text-decoration: none}
             a#hWall:hover p#clk5,
             a#mzlink:hover p#clk6,
-            a#chrhlink:hover p#clk7 {display: block;color:red;}
+            a#chrhlink:hover p#clk7 {display: block;color:red;margin-top:-20px;}
             a#dirLink img {
               border: 2px solid #666;
             }
