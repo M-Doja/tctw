@@ -144,7 +144,7 @@
         </section>
       </section>
     </section>
-    <div  style=" text-align: center;margin:auto;"></div>
+    <div  style=" text-align: center;margin:10px auto;"></div>
 
     <!-- MAIN SITE CONTENT -->
     <main class="container center content">
