@@ -56,9 +56,8 @@
     }
     #navbar-main {
       overflow: hidden;
-      margin: 0 auto 45px;
       z-index: 999999;
-      height: 50px;
+      height: 35px;
       background-color: #674d3c;
       font-family: new times;
       border:1px solid #674d3c;
@@ -96,11 +95,27 @@
     #quoteSection2 { margin-top: -40px;}
     </style>
   </head>
-  <body data-spy="scroll" data-target="#navbar-main">
-
+  <body id="Home" data-spy="scroll" data-target="#navbar-main">
+    <nav id="navbar-main" class="navbar mr-auto navbar-light">
+      <a class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
+      <ul class="nav nav-pills ">
+        <li class="nav-item">
+          <a class="nav-link" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Directions">Directions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.mazeofhonor.com/about-us/" target="_blank">Our Story</a>
+        </li>
+      </ul>
+    </nav>
     <!-- Site Title -->
+    <div class="spacer" style="padding-top:30px;">
+
+    </div>
     <header>
-      <h1 class="center" style="">Center of the World
+      <h1 class="center" style="margin-top:0">Center of the World
         <span style="font-size:2.5vw">&reg;</span>
       </h1>
     </header>
@@ -129,23 +144,7 @@
         </section>
       </section>
     </section>
-    <div id="Home" style=" text-align: center;margin: 35px auto;"></div>
-
-    <!-- Navbar -->
-    <nav id="navbar-main" class="navbar mr-auto navbar-light">
-      <a class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
-      <ul class="nav nav-pills ">
-        <li class="nav-item">
-          <a class="nav-link" href="#Home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Directions">Directions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.mazeofhonor.com/about-us/" target="_blank">Our Story</a>
-        </li>
-      </ul>
-    </nav>
+    <div  style=" text-align: center;margin: 35px auto;"></div>
 
     <!-- MAIN SITE CONTENT -->
     <main class="container center content">
@@ -312,14 +311,6 @@
 
           </section>
           <br id="Directions">
-          <!-- Directions Link -->
-          <!-- <section >
-            <a id="dirLink"href="#Directions" style="text-decoration:none; ">
-
-              <b>Directions</b><br>
-              <img src="./content/assets/images/findus.jpg" alt="Image of map location of Felicity, CA." style="width:150px;">
-            </a>
-          </section> -->
         </article>
       </section>
 
@@ -345,8 +336,6 @@
           <div class="gmap_canvas">
             <iframe  id="gmap_canvas" style="border:1px solid navy;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.5807326435865!2d-114.76767332125831!3d32.750321981073206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d6fbcdaeba9197%3A0xa31d304ac96df130!2sMuseum+of+History+In+Granite!5e0!3m2!1sen!2sus!4v1544491962256" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
-            <!-- <iframe  id="gmap_canvas" style="border:1px solid navy;" src="https://maps.google.com/maps?q=felicity&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
-            <!-- <a href="https://www.pureblack.de/webdesign-wiesbaden/"></a> -->
           </div>
           <style>.mapouter{margin:auto;text-align:center;max-height:315px;height: 100%; max-width:787px; width:100%;}.gmap_canvas {margin:auto;overflow:hidden;background:none!important;max-height:315px;height: 100%; max-width:787px; width:100%;}</style>
         </div>
