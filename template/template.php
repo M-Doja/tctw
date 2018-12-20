@@ -127,7 +127,7 @@
         <b>"... no digital images could have prepared me for the tranquil, lofty sensation <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
       </blockquote>
 
-      <div class="center" style="max-width:750px;margin: 90px auto 50px;width:100%;">
+      <div class="center" style="max-width:750px;margin: 50px auto;width:100%;">
         <?php include './content/partials/pixCar.php'; ?>
       </div>
 
