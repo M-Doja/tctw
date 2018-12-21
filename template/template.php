@@ -24,7 +24,7 @@
     .center img {margin: auto;}
     .rounded { border-radius: 50%;}
     .top {margin-top: 0;padding: 0;}
-    hr {border-bottom: 3px solid navy;}
+    hr {border-bottom: 3px solid navy; display: none ;}
     #hohWall {width: 135px;height: 250px;}
     h1,h2,h3,h4,h5,h6{ font-family: new times;}
     img#tl {-webkit-transform: scaleY(-1);
@@ -144,7 +144,7 @@
         </section>
       </section>
     </section>
-    <div  style=" text-align: center;margin:10px auto;"></div>
+    <!-- <div  style=" text-align: center;margin:10px auto;"></div> -->
 
     <!-- MAIN SITE CONTENT -->
     <main class="container center content">
@@ -197,6 +197,7 @@
           </section>
           <hr>
           <!-- Link To Felicity Now Page -->
+          <br>
           <section id="pyImg" class="pyImg btn1">
             <a href="http://www.felicity.us/home.html" target="_blank" data-toggle="" data-target="" class="modal-launcher">
               <b>Town of Felicity </b><br>
@@ -206,6 +207,7 @@
           </section>
           <hr>
           <!-- About The Pyramid Page -->
+          <br>
           <section id="markerImg" class="markerImg btn1">
             <a href="#" data-toggle="modal" data-target="#markerCTWModal" class="modal-launcher">
               <b>Official Center of The World <br>set by United States and International Law </b><br>
@@ -231,6 +233,7 @@
           </section>
           <hr>
           <!-- Getting Certified Page -->
+          <br>
           <section id="certImg" class="certImg btn1">
             <a href="#" data-toggle="modal" data-target="#certCTWModal" class="modal-launcher">
               <b>Certificate </b><br>
@@ -319,7 +322,7 @@
       <br id="space">
       <br>
       <!-- Directions -->
-      <section class="center">
+      <section class="center" style="border-top:navy 2px solid;padding-top:15px;">
         <h2 style="color:navy;">Directions</h2>
         <p class="center">
           <b>One Center of the World Plaza <br> Felicity, CA 92283-7777 USA<br>
