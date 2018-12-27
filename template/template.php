@@ -1,3 +1,7 @@
+<!--
+
+
+-->
 <!DOCTYPE html>
 <html>
   <meta charset="utf-8" />
@@ -16,7 +20,12 @@
       background-repeat: no-repeat;
       background-size: auto;
     }
+    hr {border-bottom: 3px solid navy; display: none ;}
+    h1,h2,h3,h4,h5,h6{ font-family: new times;}
     header { padding: 20px;}
+    header h1 {
+      font-size:4.5vw; font-family:new times;margin-bottom:20px;color:navy;border-bottom:3px solid navy;
+    }
     figure img {max-width: 350px;width: 100%;}
     #mazeImg,
     #hillImg {max-width: 200px;}
@@ -24,16 +33,11 @@
     .center img {margin: auto;}
     .rounded { border-radius: 50%;}
     .top {margin-top: 0;padding: 0;}
-    hr {border-bottom: 3px solid navy; display: none ;}
     #hohWall {width: 135px;height: 250px;}
-    h1,h2,h3,h4,h5,h6{ font-family: new times;}
     img#tl {-webkit-transform: scaleY(-1);
       transform: scaleY(-1);margin: -140px auto -60px;
       max-width:500px;width: 100%;}
     div.modal-content, div.modal-content img { max-width: 732px;width: 100%;}
-    header h1 {
-      font-size:4.5vw; font-family:new times;margin-bottom:20px;color:navy;border-bottom:3px solid navy;
-    }
     #space {display: none;}
     @media only screen and (max-width: 917px) {
       header h1 { font-size: 6vw;}
