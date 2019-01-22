@@ -91,11 +91,11 @@ function showCarousalImage($imgName){
       <p>Hundreds of panels of history are engraved in granite in this museum.</p>
     </div>
     <!-- Last Invastion -->
-    <div class="carousel-item" style="padding:20px;">
+    <!-- <div class="carousel-item" style="padding:20px;">
       <img style="margin-bottom:5px;" class="d-block w-100 asyncImage" data-src="./content/assets/2000/invasion.jpg" src="./content/assets/2000/invasion.jpg" alt="Image of panel depicting text regarding last known U.S. invasion.">
       <div class="loader"></div>
       <p style="display:block; margin:-5px auto 5px;"><b>Last Invasion of The United States</b> <br>The President of France sent his Consul to the 9 March 2018 Dedication. </p>
-    </div>
+    </div> -->
     <!-- Sun dial -->
     <div class="carousel-item" style="height:100%;">
       <img class="d-block w-100 asyncImage" data-src="./content/assets/2000/sundial.jpg" src="./content/assets/2000/sundial.jpg" alt='Image of a sculpture of "Arm of God", by Michelango, as a sundial.'>
