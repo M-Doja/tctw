@@ -12,19 +12,16 @@
   <title><?php pageTitle(); ?> | <?php siteName(); ?>&reg;</title>
   <head>
     <style>
-    html {border: #674d3c 5px solid;}
+
     body {background-color: lightgoldenrodyellow;position: relative;}
-    section.splash {
-      background-image: url('./content/assets/images/DPP07DA0C0D152627.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: auto;
-    }
-    hr {border-bottom: 3px solid navy; display: none ;}
-    h1,h2,h3,h4,h5,h6{ font-family: new times;}
-    header { padding: 20px;}
+
     header h1 {
-      font-size:4.5vw; font-family:new times;margin-bottom:20px;color:navy;border-bottom:3px solid navy;
+      /* font-size:14.5vw;  */
+      /* font-family:new times; */
+
+      margin-bottom:20px;
+      color:navy;
+      border-bottom:3px solid navy;
     }
     figure img {max-width: 350px;width: 100%;}
     #mazeImg,
@@ -71,7 +68,7 @@
       display: block;
       color: #f2f2f2;
       text-align: center;
-      padding: 14px;
+      padding: 10px;
       text-decoration: none;
     }
     .content {
@@ -99,34 +96,37 @@
     #quoteSection2 { margin-top: -40px;}
     </style>
   </head>
-  <body id="Home" data-spy="scroll" data-target="#navbar-main">
-    <nav id="navbar-main" class="navbar mr-auto navbar-light">
-      <a class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
+  <body  data-spy="scroll" data-target="#navbar-main">
+    <nav style="margin-bottom:15px; " id="navbar-main" class="navbar mr-auto navbar-light">
+      <a id="Home"class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
       <ul class="nav nav-pills ">
         <li class="nav-item">
-          <a class="nav-link" href="#Home">Home</a>
+          <a class="nav-link" href="#">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.mazeofhonor.com/about-us/" target="_blank">Our Story</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Directions">Directions</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.mazeofhonor.com/about-us/" target="_blank">Our Story</a>
-        </li>
       </ul>
     </nav>
-    <!-- Site Title -->
-    <div class="spacer" style="padding-top:30px;">
+    <div style="height:40px;width:100%;"id="Home"></div>
 
-    </div>
-    <header>
-      <h1 class="center" style="margin-top:0">Center of the World
-        <span style="font-size:2.5vw">&reg;</span>
-      </h1>
+    <!-- Site Title -->
+    <header class="container">
+      <a style="text-decoration:none;"href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
+        <h1 class="center" style="font-size:30px; margin:-5px auto 20px;text-align:center"> <span style="display:inline-block;">Center of the World</span>
+          <span style="font-size:20px;display:inine-block;margin-left:-5px;">&reg; <br> How & Why?</span>
+        </h1>
+      </a>
+
     </header>
 
 
     <!-- Top Splash Page Section -->
-    <section  id="Photos"class="container center" style="margin-top:-20px;">
+    <section  id="Photos"class="container center" style="margin-top:-15px;">
       <blockquote cite="http://">
         <b>"... no digital images could have prepared me for the tranquil, lofty sensation <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
       </blockquote>
@@ -267,11 +267,18 @@
         <!-- LEFT SIDE -->
         <article class="col-md-6">
           <style media="screen">
+            #mazelogo,#mazeImg {height: 165px;width: 200px; margin-bottom:0;display: block}
             #hohWall,#mazeImg, #hillImg {transition: all .3s ease-out;opacity: .7; margin-bottom:20px;}
             #hohWall:hover,
             #hillImg:hover,
-            #mazeImg:hover {
+            #mzlink:hover img {
               box-shadow: 5px 5px 12px grey;opacity: 1;border: 2px solid #666;
+            }
+            #mzlink:hover #mazeImg {
+              border-top: none;
+            }
+            #mzlink:hover #mazelogo {
+              border-bottom: none;
             }
             #clk5, #clk6, #clk7 {display: none; margin-top: ;}
             a p {text-decoration: none}
@@ -296,11 +303,12 @@
             <br>
           </section>
           <br>
-          <!-- Maze Of Honor -->
+          <!-- Maze Of Honor  -->
           <section>
-            <a style="text-decoration:none;" id="mzlink"href="http://mazeofhonor.com" target="_blank">
+            <a style="text-decoration:none;" id="mzlink" href="http://mazeofhonor.com"target="_blank">
                 <b>Maze of Honor &reg;</b><br>
                 <!-- <div class="loader"></div> -->
+                <img id="mazelogo" class="lazy" src="./content/assets/Maze logo.jpg" alt="">
                 <img id="mazeImg" class="lazy" src="./content/assets/home/maze.jpg" alt="">
                 <br> <p id="clk6">click Here</p>
             </a>
@@ -322,7 +330,7 @@
       </section>
 
 
-      <hr >
+      <!-- <hr > -->
       <br id="space">
       <br>
       <!-- Directions -->

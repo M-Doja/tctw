@@ -2,14 +2,23 @@
   box-sizing: border-box;
 }
 
-body, html {
+/* body, html {
     height: 100%;
-    background-color: #e8dada;
     font-style: impact;
   }
-  body { text-align: center; }
+  html {border: #674d3c 5px solid;}
+  body { text-align: center; } */
   .wrap { background-color: #fff; max-width: 720px; margin: 50px auto; padding: 30px 40px; text-align: center; box-shadow: 0 4px 25px -4px #9da5ab; }
   article { line-height: 150%;  }
+  section.splash {
+    background-image: url('./content/assets/images/DPP07DA0C0D152627.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  hr {border-bottom: 3px solid navy; display: none ;}
+  h1,h2,h3,h4,h5,h6{ font-family: new times;}
+  header { padding: 20px;}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form,
 .navbar-inverse> div.container {
   background-color: #000;
