@@ -99,7 +99,7 @@
   <body  data-spy="scroll" data-target="#navbar-main">
     <nav style="margin-bottom:15px;height:65px; " id="navbar-main" class="navbar mr-auto navbar-light">
       <a id="Home"class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
-      <ul class="nav nav-pills ">
+      <ul class="nav nav-pills " style="margin-top:-15px;">
         <li class="nav-item">
           <a class="nav-link" href="#">Home</a>
         </li>
