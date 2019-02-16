@@ -118,7 +118,7 @@
     <header class="container" style="margin-top: 37px">
       <a style="text-decoration:none;"href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
         <h1 class="center" style="font-size:30px; margin:-5px auto 20px;text-align:center"> <span style="display:inline-block;">Center of the World</span>
-          <span style="font-size:20px;display:inine-block;margin-left:-5px;">&reg; <br> How & Why?</span>
+          <span style="font-size:20px;display:inine-block;margin-left:-5px;">&reg; -  How & Why?</span>
         </h1>
       </a>
 
