@@ -6,7 +6,7 @@
 <html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="This is the official Center of the World website. Located in Felicity, CA, it is host to a number of attractions such as The Museum of History in Granite and the Church on the Hill.">
+  <meta name="description" content="Welcome to the official Center of the World website. Located in Felicity, CA, the Center of The World has a number of attractions such as The Museum of History in Granite and the Church on the Hill."T
   <meta name="keywords" content="museum, granite, Felicity, center, world, maze, honor">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title><?php pageTitle(); ?> | <?php siteName(); ?>&reg;</title>
@@ -16,9 +16,6 @@
     body {background-color: lightgoldenrodyellow;position: relative;}
 
     header h1 {
-      /* font-size:14.5vw;  */
-      /* font-family:new times; */
-
       margin-bottom:20px;
       color:navy;
       border-bottom:3px solid navy;
@@ -116,9 +113,9 @@
 
     <!-- Site Title -->
     <header class="container" style="margin-top: 37px">
-      <a style="text-decoration:none;"href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
-        <h1 class="center" style="font-size:30px; margin:-5px auto 20px;text-align:center"> <span style="display:inline-block;">Center of the World</span>
-          <span style="font-size:20px;display:inine-block;margin-left:-5px;">&reg; -  How & Why?</span>
+        <h1 class="center" style="font-size:30px; margin:-5px auto 20px;text-align:center"> <span style="display:inline-block;">Center of the World &reg; </span>
+          <a style="text-decoration:none;"href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
+          <span style="border:2px solid black;font-size:20px;display:inline-block;margin:10px auto;padding:5px;">  How & Why? <span style="font-size:15px;color:red;"> click </span> </span><br>
         </h1>
       </a>
 
