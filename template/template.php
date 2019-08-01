@@ -14,44 +14,12 @@
     <style>
 
     body {background-color: lightgoldenrodyellow;position: relative;}
-
-    header h1 {
-      margin-bottom:20px;
-      color:navy;
-      border-bottom:3px solid navy;
-    }
-    figure img {max-width: 350px;width: 100%;}
-    #mazeImg,
-    #hillImg {max-width: 200px;}
     .center { text-align: center;}
     .center img {margin: auto;}
     .rounded { border-radius: 50%;}
     .top {margin-top: 0;padding: 0;}
-    #hohWall {width: 135px;height: 250px;}
-    img#tl {-webkit-transform: scaleY(-1);
-      transform: scaleY(-1);margin: -140px auto -60px;
-      max-width:500px;width: 100%;}
-    div.modal-content, div.modal-content img { max-width: 732px;width: 100%;}
-    #space {display: none;}
-    @media only screen and (max-width: 917px) {
-      header h1 { font-size: 6vw;}
-    }
-    @media only screen and (max-width: 545px) {
-      img#tl { margin-top: -130px; }
-      header h1 { font-size: 8.5vw;}
-      #navbar-main .navbar-brand{ display: none;}
-      #title { font-size: 20px;}
-      #navbar-main a {
-        font-size: 15px;
-      }
-      #space {display: block;}
-    }
-    @media only screen and (max-width: 500px) {
-      img#tl { margin-top: -120px; }
-    }
-    @media only screen and (max-width: 460px) {
-      img#tl { margin-top: -100px; }
-    }
+
+    /* SITE TITLE */
     #navbar-main {
       overflow: hidden;
       z-index: 999999;
@@ -59,6 +27,8 @@
       background-color: #674d3c;
       font-family: new times;
       border:1px solid #674d3c;
+      margin-bottom:15px;
+      height:65px;
     }
     #navbar-main a {
       float: left;
@@ -82,25 +52,122 @@
     .sticky + .content {
       padding-top: 60px;
     }
-    h4 {margin-bottom: 200px;}
+    header {
+      margin-top: 37px;
+    }
+    header h1 {
+      color:navy;
+      border-bottom:3px solid navy;
+      font-size:30px;
+      margin:-5px auto 20px;
+      text-align:center;
+    }
+    header h1 span {
+      display:inline-block;
+    }
+    header a {
+      text-decoration:none;
+    }
+    header span.one{
+      border:2px solid black;font-size:20px;display:inline-block;margin:10px auto;padding:5px;
+    }
+    header span.two{
+      font-size:15px;color:red;
+    }
+
+    /* PHOTO CAROUSEL SECTION */
+    #Photos {
+      margin-top:-15px;
+    }
+    #Photos > div {
+      max-width:750px;margin: 50px auto;width:100%;
+    }
+
+    /* MAIN CONTENT AREA */
+    #quoteSection2 { margin-top: -40px;}
+    #certifImg,#markImg, #pymImg,#ctwImg {transition: all .3s ease-out;opacity: .7}
+    #certifImg:hover,
+    #pymImg:hover,
+    #markImg:hover,
+    #ctwImg:hover {
+      box-shadow: 5px 5px 12px grey;opacity: 1;border: 2px solid #666;
+    }
+    #clk1, #clk2, #clk3, #clk4, #clk5, #clk6, #clk7 {display: none;}
+    #ctw-page:hover #clk1,
+    #certImg:hover #clk4,
+    #pyImg:hover #clk2,
+    #markerImg:hover #clk3 {display: inline-block;color:red;}
+    .modal-footer button {
+      background-color: #674d3c;
+      color: #fff;
+      font-weight: bold;
+      font-family: new times;
+    }
+    #mazeImg,
+    #hillImg {max-width: 200px;}
+    #hohWall {width: 135px;height: 250px;}
+    div.modal-content, div.modal-content img { max-width: 732px;width: 100%;}
+    #mazelogo,#mazeImg {height: 165px;width: 200px; margin-bottom:0;display: block}
+    #hohWall,#mazeImg, #hillImg {transition: all .3s ease-out;opacity: .7; margin-bottom:20px;}
+    #hohWall:hover,
+    #hillImg:hover,
+    #mzlink:hover img {
+      box-shadow: 5px 5px 12px grey;opacity: 1;border: 2px solid #666;
+    }
+    #mzlink:hover #mazeImg {
+      border-top: none;
+    }
+    #mzlink:hover #mazelogo {
+      border-bottom: none;
+    }
+    a p {text-decoration: none}
+    a#hWall:hover p#clk5,
+    a#mzlink:hover p#clk6,
+    a#chrhlink:hover p#clk7 {display: block;color:red;margin-top:-20px;}
+    a#dirLink img {
+      border: 2px solid #666;
+    }
+    a#dirLink:hover img {
+      opacity: 1;
+      box-shadow: 5px 5px 12px grey;
+    }
+
+    /* MAP STYLES */
     .gmap_canvas iframe {
       max-width:787;
       width: 100%;
       max-height:315px;
       height: 100%;
     }
-    h3#title { margin-bottom: -80px;}
-    #quoteSection2 { margin-top: -40px;}
+
+    /*********** MOBILE STYLING ******** */
+    /* ********************************* */
+    #space {display: none;}
+    @media only screen and (max-width: 917px) {
+      header h1 { font-size: 6vw;}
+    }
+    @media only screen and (max-width: 545px) {
+      header h1 { font-size: 8.5vw;}
+      #navbar-main .navbar-brand{ display: none;}
+      #navbar-main a {
+        font-size: 15px;
+      }
+      #space {display: block;}
+    }
+
+
     </style>
   </head>
   <body  data-spy="scroll" data-target="#navbar-main">
-    <nav style="margin-bottom:15px;height:65px; " id="navbar-main" class="navbar mr-auto navbar-light">
-      <a id="Home"class="navbar-brand" href="#"><b>Center of The World &reg;</b> </a>
+    <!-- TOP NAVIGATION BAR -->
+    <nav id="navbar-main" class="navbar mr-auto navbar-light">
+      <a id="Home"class="navbar-brand" href="#">
+        <b>Center of The World &reg;</b>
+      </a>
       <ul class="nav nav-pills " style="margin-top:-15px;">
         <li class="nav-item">
           <a class="nav-link" href="#">Home</a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="https://www.mazeofhonor.com/about-us/" target="_blank">Our Story</a>
         </li>
@@ -109,26 +176,26 @@
         </li>
       </ul>
     </nav>
-    <div style="height:40px;width:100%;"id="Home"></div>
+
+    <div style="height:40px;"id="Home"></div> <!-- Link Top Of Page -->
 
     <!-- Site Title -->
-    <header class="container" style="margin-top: 37px">
-        <h1 class="center" style="font-size:30px; margin:-5px auto 20px;text-align:center"> <span style="display:inline-block;">Center of the World &reg; </span>
-          <a style="text-decoration:none;"href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
-          <span style="border:2px solid black;font-size:20px;display:inline-block;margin:10px auto;padding:5px;">  How & Why? <span style="font-size:15px;color:red;"> click </span> </span><br>
+    <header class="container">
+        <h1 class="center"> <span>Center of the World &reg; </span>
+          <a href="#" data-toggle="modal" data-target="#settingCTWModal" class="modal-launcher">
+            <span class="one">  How & Why? <span class="two"> click </span> </span><br>
+          </a>
         </h1>
-      </a>
-
     </header>
 
 
     <!-- Top Splash Page Section -->
-    <section  id="Photos"class="container center" style="margin-top:-15px;">
+    <section id="Photos"class="container center">
       <blockquote cite="http://">
         <b>"... no digital images could have prepared me for the tranquil, lofty sensation <br> of standing amoung the monuments..." <i><small>Elizabeth Starr McClintock</small> </i></b>
       </blockquote>
 
-      <div class="center" style="max-width:750px;margin: 50px auto;width:100%;">
+      <div class="center">
         <?php include './content/partials/pixCar.php'; ?>
       </div>
 
@@ -145,31 +212,12 @@
         </section>
       </section>
     </section>
-    <!-- <div  style=" text-align: center;margin:10px auto;"></div> -->
 
     <!-- MAIN SITE CONTENT -->
     <main class="container center content">
       <section class="center row">
         <style media="screen">
-          #certifImg,#markImg, #pymImg,#ctwImg {transition: all .3s ease-out;opacity: .7}
-          #certifImg:hover,
-          #pymImg:hover,
-          #markImg:hover,
-          #ctwImg:hover {
-            box-shadow: 5px 5px 12px grey;opacity: 1;border: 2px solid #666;
-          }
-          #clk1, #clk2, #clk3, #clk4 {display: none;}
 
-          #ctw-page:hover #clk1,
-          #certImg:hover #clk4,
-          #pyImg:hover #clk2,
-          #markerImg:hover #clk3 {display: inline-block;color:red;}
-          .modal-footer button {
-            background-color: #674d3c;
-            color: #fff;
-            font-weight: bold;
-            font-family: new times;
-          }
 
         </style>
         <!-- RIGHT SIDE -->
@@ -264,31 +312,7 @@
         <!-- LEFT SIDE -->
         <article class="col-md-6">
           <style media="screen">
-            #mazelogo,#mazeImg {height: 165px;width: 200px; margin-bottom:0;display: block}
-            #hohWall,#mazeImg, #hillImg {transition: all .3s ease-out;opacity: .7; margin-bottom:20px;}
-            #hohWall:hover,
-            #hillImg:hover,
-            #mzlink:hover img {
-              box-shadow: 5px 5px 12px grey;opacity: 1;border: 2px solid #666;
-            }
-            #mzlink:hover #mazeImg {
-              border-top: none;
-            }
-            #mzlink:hover #mazelogo {
-              border-bottom: none;
-            }
-            #clk5, #clk6, #clk7 {display: none; margin-top: ;}
-            a p {text-decoration: none}
-            a#hWall:hover p#clk5,
-            a#mzlink:hover p#clk6,
-            a#chrhlink:hover p#clk7 {display: block;color:red;margin-top:-20px;}
-            a#dirLink img {
-              border: 2px solid #666;
-            }
-            a#dirLink:hover img {
-              opacity: 1;
-              box-shadow: 5px 5px 12px grey;
-            }
+
           </style>
           <!-- Museum History In Granite -->
           <section>
